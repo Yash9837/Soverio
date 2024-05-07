@@ -12,11 +12,12 @@ import Footer from './components/footer'
 import SocialMediaHandles from './components/socialmedia'
 import AboutUs from './components/aboutus'
 import CarAnimation from './components/caranimation'
+import Gallery from './components/gallery'
 
 
 function App() {
   return (
-    <div className=" bg-black">
+    <div className=" bg-black overflow-hidden">
       
       <Hero/>
       
@@ -28,6 +29,7 @@ function App() {
       <MissionSection/>
       <OurTeam/>
       <SocialMediaHandles/>
+      <Gallery/>
       <Footer/>
       
       
