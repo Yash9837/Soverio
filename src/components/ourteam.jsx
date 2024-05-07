@@ -13,8 +13,8 @@ const OurTeam = () => {
   
 
   return (
-    <section className="  py-12">
-      <div className="max-w mx-auto px-2 sm:px-6 lg:px-8 ">
+    <section className="  py-8">
+      <div className="max-w mx-auto sm:px-6 lg:px-2 ">
         <h2 className="text-4xl font-bold font-mono text-center text-gray-300 mb-8">Team</h2>
         <div className="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {teamMembers.map((member, index) => (
@@ -22,7 +22,7 @@ const OurTeam = () => {
               <div className="relative h-72 bg-zinc-950">
                 <img className="object-cover w-full h-full" src={member.photo} alt={member.name} />
               </div>
-              <div className="p-6 border-t border-zinc-500 bg-zinc-800">
+              <div className="py-4 border-t border-zinc-500 bg-zinc-800">
                 <h3 className="text-xl font-mono text-center italic  text-gray-300 mb-2">{member.name}</h3>
                 <p className=" text-center text-lg italic text-gray-400">{member.post}</p>
               </div>

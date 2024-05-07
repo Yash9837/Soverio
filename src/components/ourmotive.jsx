@@ -1,10 +1,18 @@
 import React from 'react';
+import Lottie from 'lottie-react';
+import animationData from './animation.json'; // Import your JSON animation file
 
 const OurMotive = () => {
   return (
-    <section className="bg-black font-mono italic shadow-2xl py-16">
+    <section className="bg-black font-mono italic shadow-2xl py-16 relative">
       <div className="max-w mx-16 px-16 sm:px-6 lg:px-2">
         <h2 className="text-4xl font-bold text-center text-gray-300 mb-16">Our Motive</h2>
+        <Lottie
+          animationData={animationData}
+          loop
+          autoplay
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Motive 1 */}
           <div className="bg-neutral-950 border border-zinc-800 rounded-lg  overflow-hidden shadow-lg">
