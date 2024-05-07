@@ -1,0 +1,18 @@
+.car {
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    bottom: 0;
+    transform: translateX(-100%);
+  }
+  
+  /* Define animation */
+  .car.transition-transform {
+    transition-property: transform;
+    transition-timing-function: linear;
+  }
+  
+  /* Define animation duration */
+  .car.transition-transform.duration-500 {
+    transition-duration: 1s; /* Adjust duration as needed */
+  }
+  
