@@ -9,32 +9,32 @@ const OurMotive = () => {
           {/* Motive 1 */}
           <div className="bg-neutral-950 border border-zinc-800 rounded-lg  overflow-hidden shadow-lg">
             <div className="p-8">
-              <h3 className="text-2xl font-semibold text-gray-300 mb-4">Passion for Excellence</h3>
-              <p className="text-gray-400 text-2xl">We strive for excellence in every aspect of our team, from engineering to racing strategy, pushing boundaries to achieve the best possible outcomes.</p>
+              <h3 className="text-xl font-semibold text-gray-300 mb-4">Passion for Excellence</h3>
+              <p className="text-gray-400 text-lg">We strive for excellence in every aspect of our team, from engineering to racing strategy, pushing boundaries to achieve the best possible outcomes.</p>
             </div>
           </div>
           
           {/* Motive 2 */}
           <div className="bg-neutral-950 border border-zinc-800 rounded-lg  overflow-hidden shadow-lg">
             <div className="p-8">
-              <h3 className="text-2xl font-semibold text-gray-300 mb-4">Innovation and Adaptability</h3>
-              <p className="text-gray-400 text-2xl">We embrace innovation and are always looking for ways to improve. We adapt quickly to new challenges, leveraging technology and expertise to stay ahead of the competition.</p>
+              <h3 className="text-xl font-semibold text-gray-300 mb-4">Innovation and Adaptability</h3>
+              <p className="text-gray-400 text-lg">We embrace innovation and are always looking for ways to improve. We adapt quickly to new challenges, leveraging technology and expertise to stay ahead of the competition.</p>
             </div>
           </div>
           
           {/* Motive 3 */}
           <div className="bg-neutral-950 border border-zinc-800 rounded-lg shadow-md overflow-hidden shadow-lg">
             <div className="p-8">
-              <h3 className="text-2xl font-semibold text-gray-300 mb-4">Teamwork and Collaboration</h3>
-              <p className="text-gray-400 text-2xl">We believe in the power of teamwork. Collaboration among team members, drivers, and partners is essential for achieving our goals and overcoming obstacles together.</p>
+              <h3 className="text-xl font-semibold text-gray-300 mb-4">Teamwork and Collaboration</h3>
+              <p className="text-gray-400 text-lg">We believe in the power of teamwork. Collaboration among team members, drivers, and partners is essential for achieving our goals and overcoming obstacles together.</p>
             </div>
           </div>
           
           {/* Motive 4 */}
           <div className="bg-neutral-950 border border-zinc-800 rounded-lg shadow-md overflow-hidden shadow-lg">
             <div className="p-8">
-              <h3 className="text-2xl font-semibold text-gray-300 mb-4">Commitment to Success</h3>
-              <p className="text-gray-400 text-2xl">We are committed to success, both on and off the track. Our dedication, discipline, and determination drive us to continuously improve and strive for victory.</p>
+              <h3 className="text-xl font-semibold text-gray-300 mb-4">Commitment to Success</h3>
+              <p className="text-gray-400 text-lg">We are committed to success, both on and off the track. Our dedication, discipline, and determination drive us to continuously improve and strive for victory.</p>
             </div>
           </div>
         </div>

@@ -13,18 +13,18 @@ const OurTeam = () => {
   
 
   return (
-    <section className="  py-16">
-      <div className="max-w mx-auto px-4 sm:px-6 lg:px-8 ">
+    <section className="  py-12">
+      <div className="max-w mx-auto px-2 sm:px-6 lg:px-8 ">
         <h2 className="text-4xl font-bold font-mono text-center text-gray-300 mb-8">Team</h2>
         <div className="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {teamMembers.map((member, index) => (
             <div key={index} className=" rounded-lg mx-12 shadow-md overflow-hidden border border-zinc-500">
-              <div className="relative h-96 bg-zinc-950">
+              <div className="relative h-72 bg-zinc-950">
                 <img className="object-cover w-full h-full" src={member.photo} alt={member.name} />
               </div>
               <div className="p-6 border-t border-zinc-500 bg-zinc-800">
-                <h3 className="text-2xl font-mono text-center italic  text-gray-300 mb-2">{member.name}</h3>
-                <p className=" text-center text-xl italic text-gray-400">{member.post}</p>
+                <h3 className="text-xl font-mono text-center italic  text-gray-300 mb-2">{member.name}</h3>
+                <p className=" text-center text-lg italic text-gray-400">{member.post}</p>
               </div>
             </div>
           ))}

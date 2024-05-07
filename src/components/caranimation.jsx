@@ -22,7 +22,7 @@ const CarAnimation = () => {
   return (
     <div className="relative">
       <img
-        className="car  h-max absolute top-96 transition-transform duration-500"
+        className="car  h-max absolute top-52 transition-transform duration-500"
         src={sss} // Replace with the path to your car image
         alt="Moving Car"
         style={{ left: `${scrollPosition}px` }}
