@@ -3,7 +3,7 @@ import car from "../images/piccar.jpg";
 
 const AboutUs = () => {
     return (
-        <section className="py-32 bg-gradient-to-r from-red-700 to-black border-y border-zinc-400 font-mono">
+        <section className="py-32  border-y border-zinc-400 ">
             <div className="container flex flex-col lg:flex-row items-center  justify-center mx-16">
                 {/* Photo */}
                 <div className=" mb-8 lg:mb-0 lg:mr-12 max-w-2xl">

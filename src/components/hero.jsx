@@ -7,7 +7,7 @@ import CarAnimation from './caranimation';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen font-mono">
+    <div className="relative h-screen">
       <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: `url(${backgroundImage})`}}>
         <Header/>
         <div className='text-white  flex flex-col place-items-end  mr-40  mt-64 '>

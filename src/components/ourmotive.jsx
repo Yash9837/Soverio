@@ -4,7 +4,7 @@ import animationData from './animation.json'; // Import your JSON animation file
 
 const OurMotive = () => {
   return (
-    <section className="bg-black font-mono italic shadow-2xl py-16 relative">
+    <section className="bg-black italic shadow-2xl py-16 relative">
       <div className="max-w mx-16 px-16 sm:px-6 lg:px-2">
         <h2 className="text-4xl font-bold text-center text-gray-300 mb-16">Our Motive</h2>
         <Lottie
